@@ -95,7 +95,7 @@ REST，即Representational State Transfer的缩写，是目前最流行的一种
 
 ```javascript
 # Request
-POST http://api.lbank.info/v1/create_order.do
+POST http://api.seadex.io/v1/create_order.do
 {
   "api_key"："16702619-0bc8-446d-a3d0-62fb67a8985e",
   "symbol"："eth_btc",
@@ -135,7 +135,7 @@ POST http://api.lbank.info/v1/create_order.do
 
 ```javascript
 # Request
-POST http://api.lbank.info/v1/cancel_order.do
+POST http://api.seadex.io/v1/cancel_order.do
 {
   "api_key"："16702619-0bc8-446d-a3d0-62fb67a8985e",
   "symbol"："eth_btc",
