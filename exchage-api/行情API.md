@@ -27,7 +27,7 @@ REST，即Representational State Transfer的缩写，是目前最流行的一种
 
 ### 币币行情 API 
 
-1.获取LBank币币行情数据  
+1.获取seadex币币行情数据  
 
 > URL: `http://api.seadex.io/v1/ticker.do`
 
@@ -113,7 +113,7 @@ GET http://api.seadex.io/v1/ticker.do
 
 
 
-2.获取LBank可用交易对接口
+2.获取seadex可用交易对接口
 
 > URL: `http://api.seadex.io/v1/currencyPairs.do`	
 
@@ -136,7 +136,7 @@ GET http://api.seadex.io/v1/currencyPairs.do
 > 所有可用交易对
 
 
-3.获取LBank市场深度
+3.获取Seadex市场深度
 
 URL: `http://api.seadex.io/v1/depth.do`	
 
@@ -181,7 +181,7 @@ GET http://api.seadex.io/v1/depth.do
 asks :卖方深度
 bids :买方深度
 ```
-4.获取LBank历史交易信息
+4.获取Seadex历史交易信息
 
 URL: `http://api.seadex.io/v1/trades.do`	
 
