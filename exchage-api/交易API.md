@@ -177,7 +177,7 @@ POST http://api.seadex.io/v1/cancel_order.do
 
 ```javascript
 # Request
-POST http://api.lbank.info/v1/orders_info.do
+POST http://api.seadex.io/v1/orders_info.do
 {
   "api_key"："16702619-0bc8-446d-a3d0-62fb67a8985e",
   "symbol"："eth_btc",
@@ -247,7 +247,7 @@ POST http://api.lbank.info/v1/orders_info.do
 
 ```javascript
 # Request
-POST http://api.lbank.info/v1/orders_info_history.do
+POST http://api.seadex.io/v1/orders_info_history.do
 {
   "api_key"："16702619-0bc8-446d-a3d0-62fb67a8985e",
   "symbol"："eth_btc",
@@ -318,7 +318,7 @@ POST http://api.lbank.info/v1/orders_info_history.do
 
 ```javascript
 # Request
-GET http://api.lbank.info/v1/accuracy.do
+GET http://api.seadex.io/v1/accuracy.do
 
 # Response
 [
@@ -357,7 +357,7 @@ GET http://api.lbank.info/v1/accuracy.do
 
 ```javascript
 # Request
-POST http://api.lbank.info/v1/orders_info_no_deal.do
+POST http://api.seadex.io/v1/orders_info_no_deal.do
 {
   "api_key": "sijnvsvodnvow928492fh2938fh92348f",
   "symbol": "eth_btc",
