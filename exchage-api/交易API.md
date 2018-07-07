@@ -11,7 +11,7 @@ REST，即Representational State Transfer的缩写，是目前最流行的一种
     
 ## 请求交互    
 
-`REST` 访问的根URL：`http://api.lbank.info/`
+`REST` 访问的根URL：`http://api.seadex.io/`
   
 访问时需要科学上网
 
@@ -42,7 +42,7 @@ REST，即Representational State Transfer的缩写，是目前最流行的一种
 请求示例:	
 
 ```javascript
-# RequestPOST http://api.lbank.info/v1/user_info.do
+# RequestPOST http://api.seadex.io/v1/user_info.do
 {
   "api_key"："16702619-0bc8-446d-a3d0-62fb67a8985e",
   "sign"："0E0872AD955C0E715B43C78F24B3053A",
@@ -417,7 +417,7 @@ POST http://api.lbank.info/v1/orders_info_no_deal.do
 
 ```javascript
 # Request
-GET http://api.lbank.info/v1/usdToCny.do
+GET http://api.seadex.io/v1/usdToCny.do
 
 # Response
 {"USD2CNY":"6.4801"}
